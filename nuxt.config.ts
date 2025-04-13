@@ -5,8 +5,8 @@ export default defineNuxtConfig({
     enabled: true,
 
     timeline: {
-      enabled: true
-    }
+      enabled: true,
+    },
   },
 
   modules: [
@@ -18,6 +18,10 @@ export default defineNuxtConfig({
     '@nuxt/scripts',
     '@nuxt/test-utils',
     '@nuxt/ui',
-    '@vueuse/nuxt'
-  ]
-})
+    '@vueuse/nuxt',
+  ],
+
+  fonts: {
+    families: [{ name: 'montserrat', provider: 'google' }],
+  },
+});

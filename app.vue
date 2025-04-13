@@ -1,6 +1,11 @@
 <template>
   <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+    <h1>Hello World</h1>
   </div>
 </template>
+
+<style>
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+</style>
