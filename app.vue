@@ -1,11 +1,11 @@
 <template>
-  <div>
-    <RouterView />
-  </div>
+  <NuxtPage>
+    <NuxtLayout />
+  </NuxtPage>
 </template>
 
 <style>
-h1 {
+* {
   font-family: 'Montserrat', sans-serif;
 }
 </style>
