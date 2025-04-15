@@ -3,8 +3,8 @@
 <template>
   <div>
     <header>
-      <NuxtLink to="/about" />
-      <NuxtLink to="/contacts" />
+      <NuxtLink to="/about">About</NuxtLink>
+      <NuxtLink to="/contacts">Contacts</NuxtLink>
     </header>
     <main>
       <slot />
@@ -12,4 +12,12 @@
   </div>
 </template>
 
-<style lang="scss" scoped></style>
+<style scoped>
+header {
+  margin-bottom: 10px;
+}
+
+a {
+  padding-right: 10px;
+}
+</style>
