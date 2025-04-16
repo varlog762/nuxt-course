@@ -9,14 +9,8 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: [
-    '@nuxt/eslint',
-    '@nuxt/fonts',
-    '@nuxt/image',
-    '@vueuse/nuxt',
-    '@pinia/nuxt',
-    'dayjs-nuxt',
-  ],
+  modules: [// '@nuxt/content',
+  '@nuxt/eslint', '@nuxt/fonts', '@nuxt/image', '@vueuse/nuxt', '@pinia/nuxt', 'dayjs-nuxt', 'nuxt-typed-router'],
 
   fonts: {
     families: [{ name: 'montserrat', provider: 'google' }],
