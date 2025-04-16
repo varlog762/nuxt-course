@@ -39,7 +39,12 @@ useSeoMeta({
 </script>
 
 <template>
-  <div>About</div>
+  <div><h1>About Us</h1></div>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+h1 {
+  @include Title;
+  color: $primary;
+}
+</style>

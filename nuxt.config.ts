@@ -9,10 +9,31 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: [// '@nuxt/content',
-  '@nuxt/eslint', '@nuxt/fonts', '@nuxt/image', '@vueuse/nuxt', '@pinia/nuxt', 'dayjs-nuxt', 'nuxt-typed-router'],
+  modules: [
+    // '@nuxt/content',
+    '@nuxt/eslint',
+    '@nuxt/fonts',
+    '@nuxt/image',
+    '@vueuse/nuxt',
+    '@pinia/nuxt',
+    'dayjs-nuxt',
+    'nuxt-typed-router',
+  ],
 
   fonts: {
     families: [{ name: 'montserrat', provider: 'google' }],
+  },
+  css: ['/assets/scss/global.scss'],
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: `
+          @use "/assets/scss/_vars.scss" as *;
+          @use "/assets/scss/_mixins.scss" as *;
+          `,
+        },
+      },
+    },
   },
 });

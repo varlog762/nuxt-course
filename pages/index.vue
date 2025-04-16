@@ -36,7 +36,15 @@ useSeoMeta({
 </script>
 
 <template>
-  <div>Main page</div>
+  <div>
+    <div>Main page</div>
+    <h1>Hello world</h1>
+  </div>
 </template>
 
-<style scoped></style>
+<style lang="scss" scoped>
+h1 {
+  @include Title;
+  color: $primary;
+}
+</style>
