@@ -19,21 +19,10 @@ export default defineNuxtConfig({
     'dayjs-nuxt',
     'nuxt-typed-router',
   ],
-
+  future: {
+    compatibilityVersion: 4,
+  },
   fonts: {
     families: [{ name: 'montserrat', provider: 'google' }],
-  },
-  css: ['/assets/scss/global.scss'],
-  vite: {
-    css: {
-      preprocessorOptions: {
-        scss: {
-          additionalData: `
-          @use "/assets/scss/_vars.scss" as *;
-          @use "/assets/scss/_mixins.scss" as *;
-          `,
-        },
-      },
-    },
   },
 });
