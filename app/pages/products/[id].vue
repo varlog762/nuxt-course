@@ -3,7 +3,9 @@ const { id } = useRoute().params;
 </script>
 
 <template>
-  <div>Product {{ id }}</div>
+  <div>
+    <h2>Product {{ id }}</h2>
+  </div>
 </template>
 
 <style scoped></style>

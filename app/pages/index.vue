@@ -20,4 +20,12 @@ h2 {
 p {
   margin: 20px 0;
 }
+
+NuxtLink {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
 </style>
