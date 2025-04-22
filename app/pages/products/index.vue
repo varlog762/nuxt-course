@@ -14,7 +14,7 @@ const { data: products } = await useFetch<ProductInterface[]>(
   <div>
     <div v-if="products" class="grid grid-cols-4 gap-5">
       <div v-for="product in products" :key="product.id">
-        {{ product.id }}
+        <NuxtLink :to="`/products/${product.id}`">{{ product.title }}</NuxtLink>
       </div>
     </div>
   </div>
