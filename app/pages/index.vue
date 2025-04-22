@@ -3,7 +3,7 @@
 <template>
   <div>
     <h2 class="text-2xl text-bold mb-8">Home Page</h2>
-    <p class="">
+    <p class="text-2">
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, animi
       sequi libero corporis quis aperiam tempore cumque. Voluptatibus, molestias
       voluptatum?

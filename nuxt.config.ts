@@ -26,6 +26,7 @@ export default defineNuxtConfig({
   fonts: {
     families: [{ name: 'montserrat', provider: 'google' }],
   },
+  css: ['~/assets/css/main.css'],
   vite: {
     plugins: [tailwindcss()],
   },
