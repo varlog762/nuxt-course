@@ -4,7 +4,7 @@
   <div>
     <header>
       <nav>
-        <NuxtLink to="/">Nuxt Dojo</NuxtLink>
+        <NuxtLink to="/products">Nuxt Dojo Merch</NuxtLink>
       </nav>
     </header>
     <main>

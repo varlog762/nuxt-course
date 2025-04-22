@@ -2,9 +2,9 @@
 
 <template>
   <div>
-    <header>
+    <header class="p-5 min-h-[50px]">
       <nav>
-        <ul>
+        <ul class="flex gap-4">
           <li><NuxtLink to="/">Home</NuxtLink></li>
           <li><NuxtLink to="/about">About</NuxtLink></li>
           <li><NuxtLink to="/products">Products</NuxtLink></li>
@@ -12,7 +12,7 @@
       </nav>
     </header>
 
-    <main>
+    <main class="p-5">
       <slot />
     </main>
   </div>
